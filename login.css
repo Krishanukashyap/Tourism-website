@@ -1,0 +1,150 @@
+
+.login-main{
+    height: 800px;
+    width: 1200px;
+    background-color: black;
+    margin-left: 340px;
+    margin-top: 35px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 25px 25px 5px rgba(0, 0, 0,0.20);
+}
+.image{
+    height: 750px;
+    width: 550px;
+    background-image: url(pexels-tobiasbjorkli-1562058.jpg);
+    background-size: cover;    
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.details{
+    height: 700px;
+    width: 550px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+}
+.boat{
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-left: 30px;
+}
+.txt1{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 150px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.txt2{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 0.95rem;
+}
+/* .google{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 350px;
+    height: 35px;
+    background-color: black;
+    color: antiquewhite;
+    border: 0.25px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.facebook{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 350px;
+    height: 35px;
+    background-color: black;
+    color: antiquewhite;
+    border: 0.25px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.google:active{
+    background-color: darkgray;
+    transform: translateY(2px);
+}
+.facebook:active{
+    background-color: darkgray;
+    transform: translateY(2px);
+} */
+.txt3{
+    margin-left: 30px;
+    background-color: black;
+}
+.txt3 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+input{
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    outline: none;
+    background: transparent;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 335px;
+    height: 15px;
+    color: aliceblue;
+    background-color: black;
+}
+.login{
+    width:360px;
+    height: 35px;
+    margin-left: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 800;
+    background-color: aliceblue;
+}
+.login:active{
+    background-color: darkgrey;
+    transform: translateY(2px);
+}
+.txt4{
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 0.95rem;
+    margin-top: 25px;
+    background-color: black;
+}
+.txt5{
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 0.95rem;
+    margin-top: 2px;
+    background-color: black;
+    
+}
+
+.txt5 a{
+    color: aliceblue;
+    background-color: black;
+}
+.boat a{
+    text-decoration: none;
+    color: aliceblue;
+}

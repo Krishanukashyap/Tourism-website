@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+/* navbar */
+.navbar{
+    height: 65px;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    /* padding-top: 20px;
+    padding-left: 20px; */
+
+}
+.logo a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.contents{
+    display: flex;
+    background-color: transparent;
+    height: 35px;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1.5px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    font-weight: 650;
+}
+
+.signup{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    height: 35px;
+    width: 170px;
+    /* border: 0.5px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px; */
+}
+.signin a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-image: url(tianshu-liu-aqZ3UAjs_M4-unsplash.jpg);
+    background-size: cover;
+}
+
+.hero-section{
+
+    color: rgba(255, 255, 255, 0.8);
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    font-size: 6rem;
+    margin-left: 350px;
+    margin-top: 250px;
+
+}
+
+.footer-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 800px;
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 35px;
+}
+
+.footer-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 35px;
+    width: 800px;
+    color: white;
+    font-size: 1rem;
+    margin-top:0;
+}
+
+.footer-3{
+    display:flex;
+    margin-left: 125px;
+    margin-top: 65px;
+}
+
+.booknow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:white ;
+    height: 30px;
+    width:100px;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px; */
+    background-color:white ;
+    height: 30px;
+    width:50px;
+    border-radius: 90%;
+}
+
+.text{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.login{
+    border: 1px solid white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 75px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin{
+    border: 1px solid white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 75px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: black;
+    background-color: white;
+}
+
+select{
+    background: transparent;
+    border: none;
+    color: gainsboro;
+    font-weight: 650px;
+}
